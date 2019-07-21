@@ -23,7 +23,7 @@ public:
 // CsvFactoryExt::create
 //==========================================
 std::auto_ptr<CsvFactory> CsvFactoryExt::create() {
-	return std::auto_ptr<CsvFactory>(new CsvFactoryImpl());
+    return std::auto_ptr<CsvFactory>(new CsvFactoryImpl());
 }
 
 }

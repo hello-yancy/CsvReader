@@ -13,7 +13,7 @@ public:
     virtual ~CsvSheetExt() throw() {}
 
  public:
- 	static std::auto_ptr<CsvSheet> create();
+    static std::auto_ptr<CsvSheet> create();
 
 };
 

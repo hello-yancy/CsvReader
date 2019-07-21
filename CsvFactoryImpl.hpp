@@ -12,7 +12,7 @@ public:
     virtual ~CsvFactoryExt() throw() {}
 
  public:
- 	static std::auto_ptr<CsvFactory> create();
+    static std::auto_ptr<CsvFactory> create();
 
 };
 

@@ -7,6 +7,7 @@
 namespace Csv {
 
 typedef std::vector<std::string> StrVec;
+typedef std::vector<StrVec>      StrStrVec;
 
 }
 

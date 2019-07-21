@@ -12,7 +12,7 @@ public:
     }
 
  public:
- 	static std::auto_ptr<CsvSheet> create();
+    static std::auto_ptr<CsvSheet> create();
 
 };
 
@@ -20,7 +20,7 @@ public:
 // CsvSheetExt::create
 //==========================================
 std::auto_ptr<CsvSheet> CsvSheetExt::create() {
-	return std::auto_ptr<CsvSheet>(new	CsvSheetImpl());
+    return std::auto_ptr<CsvSheet>(new CsvSheetImpl());
 }
 
 }

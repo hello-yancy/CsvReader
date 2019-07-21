@@ -4,7 +4,8 @@
 
 namespace Csv {
 
-const char CHAR_COMMA = ','
+const char CHAR_COMMA = ',';
+const char CHAR_QUOTE = '"';
 
 }
 

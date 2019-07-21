@@ -13,7 +13,7 @@ public:
     virtual ~CsvReaderExt() throw() {}
 
  public:
- 	static std::auto_ptr<CsvReader> create();
+    static std::auto_ptr<CsvReader> create();
 
 };
 
