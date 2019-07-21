@@ -1,4 +1,6 @@
 #include "CsvFactoryImpl.hpp"
+#include "CsvSheetImpl.hpp"
+#include "CsvReaderImpl.hpp"
 
 namespace Csv {
 
@@ -12,10 +14,11 @@ public:
     }
 
     virtual std::auto_ptr<CsvSheet> createCsvSheet() {
-
+        return CsvSheetExt::create();
     }
 
     virtual std::auto_ptr<CsvReader> createCsvReader() {
+        return CsvReaderExt::create();
     }
 };
 
