@@ -14,8 +14,7 @@ project(CsvReader)
 include_directories("${PROJECT_SOURCE_DIR}/include")
 
 # 添加子目录
-add_subdirectory(googletest-1.8.1)
-add_subdirectory(CsvReader)
+add_subdirectory(src)
 
 # 生成链接库
 #add_library(CsvReader SHARED ${DIR_SRC})
