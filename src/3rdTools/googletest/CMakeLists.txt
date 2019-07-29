@@ -1,4 +1,5 @@
 add_custom_command(
-    OUTPUT ${CMAKE_CURRENT_BINARY_DIR}
-    COMMAND make all
+    googletest all
+    COMMAND make
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
